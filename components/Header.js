@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <h1 className={headerStyles.title}>
-        <span>Andy's </span>News Page
+        <span>Welcome to my </span>News Page
       </h1>
       {/* <style jsx>
         {`
@@ -15,7 +15,7 @@ const Header = () => {
         `}
       </style> */}
       <p className={headerStyles.description}>
-        Keep yourself up to date with Andy's News
+        Keep yourself up to date with Andy News
       </p>
     </div>
   );
